@@ -22,7 +22,7 @@
     },
     "autoload": {
         "files": [
-            "src/Helpers/helpers.php"
+            "Src/Helpers/helpers.php"
         ],
         "psr-4": {
             "Arabasta\\": "Src/"
