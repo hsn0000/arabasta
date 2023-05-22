@@ -1,0 +1,37 @@
+{
+    "name": "arabasta/arabasta",
+    "version": "1.0.0",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "hsn",
+            "email": "hsn@arabasta.co.id"
+        }
+    ],
+    "description": "laravel library support",
+    "require": {
+        "php": "^7.4|^8.0",
+        "ext-json": "*",
+        "ext-mbstring": "*",
+        "ext-zlib": "*",
+        "illuminate/support": "^8|^9",
+        "illuminate/redis": "^8|^9",
+        "illuminate/database": "^8|^9",
+        "jenssegers/agent": "^2",
+        "spatie/laravel-collection-macros": "^7.4"
+    },
+    "autoload": {
+        "files": [
+            "src/Helpers/helpers.php"
+        ],
+        "psr-4": {
+            "Arabasta\\": "Src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true
+    },
+    "prefer-stable": true
+}
